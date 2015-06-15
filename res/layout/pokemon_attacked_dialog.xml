@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="40dp"
+    android:padding="5dp"
+    android:background="@drawable/dialog_background_shape" >
+
+    <TextView
+        android:id="@+id/encounterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:text="test"
+        android:textSize="15sp"
+        android:gravity="center" />
+        
+    <ImageView
+        android:id="@+id/pokemonImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ivysaur"
+        android:layout_below="@id/encounterText"
+        android:contentDescription="Image for pokemon"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pokemonImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" >
+
+        <Button
+            android:id="@+id/btnCatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/catch_button"
+            android:layout_margin="10dp" />
+        <Button
+            android:id="@+id/btnRun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/run_button"
+            android:layout_margin="10dp" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,133 @@
+ZONE
+Stellenbosch 1,GRASSLAND,-33.928893,18.865729,500
+Rattata
+Raticate
+Ekans
+Arbok
+ZONE
+Durbanville 1,GRASSLAND,-33.860198, 18.657660,150
+NidoranM
+Nidorino
+Nidoking
+Tangela
+ZONE
+Table Mountain 1,MOUNTAIN,-33.956611,18.401597,1200
+Geodude
+Graveler
+Golem
+Snorlax
+Aerodactyl
+ZONE
+Majik Forest,FOREST,-33.858792, 18.617597,500
+Caterpie
+Metapod
+Butterfree
+Exeggcute
+Exeggutor
+ZONE
+Cape Town CBD,URBAN,-33.925912,18.423620,500
+Meowth
+Persian
+Ditto
+ZONE
+Waterfront,SEA,-33.904900,18.424650,800
+Staryu
+Starmie
+Shellder
+Cloyster
+ZONE
+Clifton,SEA,-33.946316,18.375688,500
+Staryu
+Starmie
+Shellder
+Cloyster
+ZONE
+Kirstenbosch,FOREST,-33.984753,18.427994,1000
+Weedle
+Kakuna
+Beedrill
+Pikachu
+Raichu
+ZONE
+Robben Island,ROUGH,-33.804658,18.368287,1200
+Hitmonlee
+Hitmonchan
+Spearow
+Fearow
+ZONE
+Spier,ROUGH,-33.975361,18.783856,600
+Sandshrew
+Sandslash
+Rhyhorn
+Rhydon
+ZONE
+Techno Park,URBAN,-33.967718,18.840908,400
+Voltorb
+Electrode
+Magnemite
+Magneton
+ZONE
+Tyger Waterfront,WATER,-33.875198,18.629074,300
+Slowpoke
+Slowbro
+Psyduck
+Golduck
+ZONE
+Sonstraal Dam,WATER,-33.846039,18.654962,100
+Poliwag
+Poliwhirl
+Poliwrath
+Krabby
+Kingler
+ZONE
+Durbanville Golf Club,ROUGH,-33.837505,18.660861,350
+Sandshrew
+Sandslash
+Rhyhorn
+Rhydon
+ZONE
+Jonkershoek 1,ROUGH,-33.971960,18.938918,1000
+Spearow
+Fearow
+Rhyhorn
+Rhydon
+ZONE
+Jonkershoek 2,MOUNTAIN,-34.004366,18.993646,300
+Charmander
+Charmeleon
+Charizard
+ZONE
+Jonkershoek first waterfall,CAVE,-33.999990,18.981672,300
+Zubat
+Golbat
+Diglett
+Dugtrio
+Onix
+ZONE
+Jonkershoek second waterfall,CAVE,-34.004366,18.993646,300
+Zubat
+Golbat
+Gastly
+Haunter
+Gengar
+ZONE
+Cape Town International Airport,URBAN,-33.971448,18.602028,800
+Jynx
+Mr. Mime
+Chansey
+Clefairy
+Clefable
+ZONE
+Trim Park,GRASSLAND,-33.864225,18.654570,200
+NidoranF
+Nidorina
+Nidoqueen
+Kangaskhan
+ZONE
+Tygerberg,GRASSLAND,-33.879895,18.603139,250
+Doduo
+Dodrio
+Tangela
+Oddish
+Gloom
+Vileplume

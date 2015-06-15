@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="40dp"
+    android:padding="5dp" 
+    android:background="@drawable/dialog_background_shape">
+        
+    <ImageView
+        android:id="@+id/pokemonImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="Image for pokemon"
+        android:src="@drawable/ivysaur" />
+
+    <TextView
+        android:id="@+id/pokemonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_below="@+id/pokemonImage"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
+    
+    <TextView
+        android:id="@+id/pokemonDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/pokemonName"
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pokemonDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp" >
+
+        
+        
+     <TextView
+        android:id="@+id/pokemonType1"
+        android:layout_marginRight="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Bug"
+        android:gravity="center"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:background="@drawable/bug_shape" />
+        
+     <TextView
+        android:id="@+id/pokemonType2"
+        android:layout_marginLeft="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Bug"
+        android:gravity="center"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:background="@drawable/bug_shape" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

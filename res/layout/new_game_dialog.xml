@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="40dp"
+    android:padding="10dp"
+    android:background="@drawable/dialog_background_shape" >
+
+    <EditText
+        android:id="@+id/username"
+        android:hint="Username"
+        android:inputType="textCapWords"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginTop="15dp" />
+    
+    <RadioGroup
+        android:id="@+id/radioSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username" >
+ 
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male" 
+            android:checked="true" /> 
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+ 
+    </RadioGroup>
+    
+    <Button
+        android:id="@+id/register_done_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioSex"
+        android:layout_centerHorizontal="true"
+        android:text="@string/done_button" />
+
+</RelativeLayout>

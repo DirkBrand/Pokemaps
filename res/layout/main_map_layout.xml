@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <!-- The first child in the layout is for the main Activity UI-->
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:id="@+id/mainMapLayout" >
+	 
+	    <fragment
+	        android:id="@+id/map"
+	        android:name="com.google.android.gms.maps.MapFragment"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"/>
+	 
+	</RelativeLayout>
+	
+	 <!-- Side navigation drawer UI -->	 
+	<RelativeLayout
+	    android:id="@+id/leftDrawer"
+	    android:layout_width="240dp"
+	    android:layout_height="match_parent"
+	    android:layout_gravity="start" >
+	    
+	            <!-- Profile -->
+	    <RelativeLayout
+            android:id="@+id/profileBox"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/material_blue_grey_800"
+            android:padding="8dp" >
+ 
+            <ImageView
+                android:id="@+id/drawerAvatar"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/trainer_male"
+                android:layout_marginTop="15dp" />
+ 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/drawerAvatar"
+                android:orientation="vertical" >
+ 
+                <TextView
+                    android:id="@+id/drawerUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+ 
+                <TextView
+                    android:id="@+id/desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="4dp"
+                    android:text="Master Trainer"
+                    android:textColor="#fff"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </RelativeLayout>
+                <!-- List of Actions (pages) -->
+	    <ListView
+	        android:id="@+id/navList"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_gravity="start"
+            android:layout_below="@+id/profileBox"
+            android:choiceMode="singleChoice"
+            android:background="#ffffffff"/>
+    </RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>
